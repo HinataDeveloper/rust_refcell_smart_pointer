@@ -1,2 +1,2 @@
-# rust_refcell_smart_pointer
+# Rust RefCell Smart Pointer
 Learning RecCell Smart Pointer in Rust Programming Language
