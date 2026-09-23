@@ -3,7 +3,7 @@
 // Educational and Practice Rust Programming Language Code
 
 // Project: Learning Chapter 15
-// Goal: ...
+// Goal: Using RecCell Smart Pointer
 // Dependency: Without dependency
 
 // rustc 1.100.0-nightly (1303417c4 2026-09-21)
@@ -24,11 +24,13 @@
 // ssl: OpenSSL 3.6.3 9 Jun 2026
 // os: Fedora 44.0.0 [64-bit]
 
-// Kernel Version: 7.2.6-200.fc44.x86_64
+// Kernel Version: 7.2.7-200.fc44.x86_64
 // Firmware Version: 71CN51WW(V1.21)
 
 fn main() {
     println!("\n");
+
+
 
     println!("\nThe End ...\n");
 }
