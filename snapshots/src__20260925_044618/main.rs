@@ -1,6 +1,10 @@
-// lib.rs
+// main.rs
 // Date: Thu Sep 25 2026
 // Educational and Practice Rust Programming Language Code
+
+// Project: Learning Chapter 15
+// Goal: Using RecCell Smart Pointer
+// Dependency: Without dependency
 
 // rustc 1.100.0-nightly (1303417c4 2026-09-21)
 // binary: rustc
@@ -9,7 +13,7 @@
 // host: x86_64-unknown-linux-gnu
 // release: 1.100.0-nightly
 // LLVM version: 23.1.1
- 
+
 // cargo 1.100.0-nightly (495c385d0 2026-09-16)
 // release: 1.100.0-nightly
 // commit-hash: 495c385d0875c4ba51eb72ea0448a2d4c018b8d4
@@ -22,3 +26,12 @@
 
 // Kernel Version: 7.2.7-200.fc44.x86_64
 // Firmware Version: 71CN51WW(V1.21)
+
+fn main() {
+    println!("\n");
+
+    // Refer to the lib.rs
+    // You can test the lib by entering <cargo test> in terminal
+
+    println!("\nThe End ...\n");
+}

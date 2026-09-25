@@ -1,5 +1,5 @@
 // main.rs
-// Date: Thu Sep 24 2026
+// Date: Thu Sep 25 2026
 // Educational and Practice Rust Programming Language Code
 
 // Project: Learning Chapter 15
@@ -13,7 +13,7 @@
 // host: x86_64-unknown-linux-gnu
 // release: 1.100.0-nightly
 // LLVM version: 23.1.1
- 
+
 // cargo 1.100.0-nightly (495c385d0 2026-09-16)
 // release: 1.100.0-nightly
 // commit-hash: 495c385d0875c4ba51eb72ea0448a2d4c018b8d4
@@ -29,8 +29,6 @@
 
 fn main() {
     println!("\n");
-
-
 
     println!("\nThe End ...\n");
 }
