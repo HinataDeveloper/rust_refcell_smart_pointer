@@ -1,6 +1,9 @@
 [package]
-name = "rust_refcell_smart_pointer"
+name = "ref_cell_smart_pointer"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+[[bin]]
+name = "ref-cell-smart-pointer"
+path = "src/main.rs"

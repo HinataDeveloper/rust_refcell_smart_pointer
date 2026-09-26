@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rust_refcell_smart_pointer"
+name = "ref_cell_smart_pointer"
 version = "0.1.0"

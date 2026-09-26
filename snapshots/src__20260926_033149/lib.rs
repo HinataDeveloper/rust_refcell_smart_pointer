@@ -9,7 +9,7 @@
 // host: x86_64-unknown-linux-gnu
 // release: 1.100.0-nightly
 // LLVM version: 23.1.1
- 
+
 // cargo 1.100.0-nightly (98a09e7e7 2026-09-21)
 // release: 1.100.0-nightly
 // commit-hash: 98a09e7e7d62850f14e5b6132101fc1edd19a16f
@@ -22,3 +22,11 @@
 
 // Kernel Version: 7.2.7-200.fc44.x86_64
 // Firmware Version: 71CN51WW(V1.21)
+
+use std::{cell::RefCell, rc::Rc};
+
+#[derive(Debug)]
+pub enum List {
+    Cons(Rc<RefCell<i32>>, Rc<List>),
+    Nil,
+}
